@@ -50,7 +50,11 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # A more modern dmenu replacement is rofi:
-bindcode $mod+40 exec "rofi -modi drun,run -show drun"
+# bindcode $mod+40 exec "rofi -modi drun,run -show drun"
+bindcode $mod+40 exec "sh $HOME/.config/rofi/bin/launcher"
+bindsym $mod+u exec "sh $HOME/.config/rofi/bin/runner"
+bindsym $mod+0 exec "sh $HOME/.config/rofi/bin/powermenu"
+# bindcode $mod+s exec "sh $HOME/.config/rofi/bin/screenshot"
 
 # Start specific applications at initilaiztion
 # Start the picom compositor
