@@ -1,0 +1,130 @@
+{
+  "main": {
+    "id": "09a5eeda8d83d2b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "88918e95eba6a569",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e88ba74e2525f3d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b1ff7cc29fdf8d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "892866db70aa3ec5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9966d3de42709309",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "88208eff7e7037b0",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2cf94ef06322bba7",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c87a3a7a7c2d99d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd3599a84d109e15",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3dc03f5b984f472f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7cddc4cb64987992",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ee08b69f7696bbd7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "88918e95eba6a569",
+  "lastOpenFiles": [
+    "Linux/Pacman Package Manager.md",
+    "Linux/vim.md",
+    "Linux/tmux.md",
+    "Linux.md"
+  ]
+}

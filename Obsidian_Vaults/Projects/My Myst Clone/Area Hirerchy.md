@@ -1,0 +1,19 @@
+- Area
+	- Name
+	- Is Starting Area
+	- List of Rooms
+		- Room
+			- ID
+			- Is Starting Room
+			- List of Walls
+				- Wall
+					- ID
+					- Is Starting Wall
+					- Texture
+					- List of Hotspots
+						- Hotspot
+							- ID
+							- Type
+							- Position
+							- Size
+							- Type Data

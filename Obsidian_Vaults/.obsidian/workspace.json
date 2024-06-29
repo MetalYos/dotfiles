@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "0bf39c4a108e33eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccf342e04305dfd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "044c681400cf4347",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheet Sheet/Linux/tmux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f1be37d9748556a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheet Sheet/Misc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6952b2c9fe80530",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheet Sheet/Misc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eedbcdc1cfcae8a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheet Sheet/Misc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a32833ab83eef8fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "9759ef56058fa0ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c144306fd4ea760",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bcdd26786e488f65",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4bc2fa55ae1e4b9f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "30c2702c62e5d327",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b321d055e0ea6b7c",
+    "type": "split",
+    "children": [
+      {
+        "id": "04474a687e096c54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac816ac0ff87fa38",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cheet Sheet/Misc.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "33f8e7a3b5cf7cbe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cheet Sheet/Misc.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "373c7d5f1aceb8fb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "aa127db11c03cc9b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cheet Sheet/Misc.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "eedbcdc1cfcae8a1",
+  "lastOpenFiles": [
+    "Cheet Sheet/Raspberry Pi 5.md",
+    "Cheet Sheet/Misc.md",
+    "Cheet Sheet/Linux/tmux.md",
+    "Projects/My Myst Clone/Area Hirerchy.md",
+    "Projects/Escape Room Game/Class Diagram.md",
+    "Projects/My Myst Clone",
+    "Cheet Sheet/Linux/NeoVim Key mappings.md",
+    "Cheet Sheet/Linux/Pacman Package Manager.md",
+    "Cheet Sheet/Linux/vim.md",
+    "Cheet Sheet/CMake.md",
+    "ILI985 notes to remember.md",
+    "Pasted image 20231103181754.png",
+    "Pasted image 20231103182242.png",
+    "Pasted image 20231103183225.png",
+    "Pasted image 20231103182206.png",
+    "Pasted image 20231103182145.png",
+    "Pasted image 20231103182035.png",
+    "Pasted image 20231103181524.png",
+    "Pasted image 20231103180237.png",
+    "Pasted image 20231103180031.png",
+    "Pasted image 20231103175658.png"
+  ]
+}
