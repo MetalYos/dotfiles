@@ -11,3 +11,9 @@ PS1='[\u@\h \W]\$ '
 
 # Add cargo to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# Add github ssh commands
+function git_ssh() {
+    eval "$(ssh-agent -s)"
+    ssh-add "$1"
+}
