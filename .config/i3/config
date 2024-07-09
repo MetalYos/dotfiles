@@ -58,9 +58,13 @@ tiling_drag modifier titlebar
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 bindcode $mod+40 exec "sh $HOME/.config/rofi/bin/launcher"
-bindsym $mod+u exec "sh $HOME/.config/rofi/bin/runner"
+bindsym $mod+n exec "sh $HOME/.config/rofi/bin/runner"
 bindsym $mod+0 exec "sh $HOME/.config/rofi/bin/powermenu"
 # bindcode $mod+s exec "sh $HOME/.config/rofi/bin/screenshot"
+
+# Toggle keyboard layouts
+bindsym Ctrl+Shift+1 exec --no-startup-id setxkbmap us
+bindsym Ctrl+Shift+2 exec --no-startup-id setxkbmap il
 
 # Start specific applications at initilaiztion
 # Start the picom compositor
@@ -209,7 +213,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         i3bar_command i3bar
-        status_command i3status -c ~/.config/i3status/i3status.conf
+        status_command ~/.config/i3status/i3script.sh # -c ~/.config/i3status/i3status.conf
         position bottom
 
         bindsym button4 nop
