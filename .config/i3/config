@@ -23,12 +23,12 @@ font pango:Cascadia Code 13
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
-# The combination of xss-lock, nm-applet and pactl is a popular choice, so
-# they are included here as an example. Modify as you see fit.
-
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
+# Launch the main polybar
+exec_always --no_startup_id ~/.config/polybar/launch.sh
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -39,6 +39,9 @@ exec --no-startup-id udiskie
 
 # Start authentication agent
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+# Kill polybar
+exec_always --no-startup-id killall -SIGUSR1 polybar
 
 # Use pactl to adjust volume in PulseAudio.
 exec --no-startup-id volumeicon
@@ -209,34 +212,13 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-        i3bar_command i3bar
-        status_command ~/.config/i3status/i3script.sh # -c ~/.config/i3status/i3status.conf
-        position bottom
-
-        bindsym button4 nop
-        bindsym button5 nop
-        strip_workspace_numbers yes
-
-        colors {
-                background $bgcolor
-                separator #191919
-                #                       border          background      text
-                focused_workspace       $bgcolor        $bgcolor        $text
-                inactive_workspace      $in-bgcolor     $in-bgcolor     $text
-                urgent_workspace        $u-bgcolor      $u-bgcolor      $text   
-        }
-}
-
 # Color schemes for windows 
-set $bgcolor    #523d64
-set $in-bgcolor #363636
-set $text       #ffffff
+set $bgcolor    #1B4965
+set $in-bgcolor #002945
+set $text       #BEE9E8
 set $u-bgcolor  #ff0000
 set $indicator  #a8a3c1
-set $in-text    #969696
+set $in-text    #1B4965
 
 #                       border          background      text            indicator (a line which shows where the next window will be placed)     
 client.focused          $bgcolor        $bgcolor        $text           $indicator
