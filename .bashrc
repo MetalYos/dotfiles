@@ -17,3 +17,8 @@ function git_ssh() {
     eval "$(ssh-agent -s)"
     ssh-add "$1"
 }
+
+# Start fastfetch if it is installed
+if [ -x /usr/bin/fastfetch ]; then
+    fastfetch
+fi
