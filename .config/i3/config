@@ -40,6 +40,9 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # Launch the main polybar
 exec_always ~/.config/polybar/launch.sh
 
+# Start Blueman (for bluetooth connectivity UI)
+exec --no-startup-id blueman-applet
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
