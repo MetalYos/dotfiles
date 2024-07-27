@@ -1,0 +1,13 @@
+# A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
+# If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
+"$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
+
+[manager]
+sort_dir_first = true
+show_hidden = true
+show_symlink = true
+
+[opener]
+edit = [
+    { run = 'nvim "$@"', block = true }
+]
