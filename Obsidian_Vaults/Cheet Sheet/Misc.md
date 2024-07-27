@@ -3,21 +3,8 @@
 ffmpeg -protocol_whitelist file,http,https,tcp,tls -allowed_extensions ALL -i VodRecovery_danistem_41706332075.m3u8 -bsf:a aac_adtstoasc -c copy VodRecovery_danistem_41706332075.mp4
 ```
 
-## Conky location in i3 Manjaro
-```
-conky -c /usr/share/conky/conky1.10_shortcuts_green &&
-```
-and
-```
-conky -c /usr/share/conky/conky_green &&
-```
-
 ## Change dmenu in i3 to use desktop files
 This change can be done in your i3 config file: in the hotkey definition for dmenu (Super+d in a standard i3 installation), replace oiginal binding to run `i3-dmenu-desktop`.
-
-## BlueMail GPU error
-Open `BlueMail` with the flag `--disable-gpu-sandbox`. Add it to the `Exec` field in the `desktop` file.
-
 ## Python VodRecovery arguments
 ```bash
 python RecoverVod.py -d -u -v -s https://streamscharts.com/channels/danistem/streams/42181423963
